@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9cac910-770e-4a41-8ca2-e23ae3f1bb65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/CadastroPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/PaginaInicialPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/TemperaturaPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/CadastroSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicialSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/TemperaturaSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Temperatura.feature" afterDir="false" />
+    <list default="true" id="a9cac910-770e-4a41-8ca2-e23ae3f1bb65" name="Changes" comment="UPDATE - Atualizacao de arquitetura e primeiro cenario concluido.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apk/challenge-qa-0.0.1.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/config/AppiumDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/config/AppiumDriverConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pages/PaginaInicialPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/telaInicial.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TelaInicial.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/PaginaInicialPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/PaginaInicialPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/CadastroSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/CadastroSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicialSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicialSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TelaInicial.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TelaInicial.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Temperatura.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Temperatura.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660712261082</updated>
     </task>
+    <task id="LOCAL-00001" summary="UPDATE - Atualizacao de arquitetura e primeiro cenario concluido.">
+      <created>1660889582552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660889582553</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UPDATE - Atualizacao de arquitetura e primeiro cenario concluido." />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE - Atualizacao de arquitetura e primeiro cenario concluido." />
   </component>
 </project>

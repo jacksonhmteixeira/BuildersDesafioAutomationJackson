@@ -1,6 +1,5 @@
 package com.builders.desafio.pageObject;
 
-
 import com.builders.desafio.utils.Utils;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
@@ -19,12 +18,12 @@ public class PaginaInicialPageObject {
     }
 
     public void clicarBotaoCadastrar(){
-        this.utils.esperarElementoVisivel(this.identificacaoCadastrarXpath);
+        this.utils.esperarElementoEstarVisivel(this.identificacaoCadastrarXpath);
         this.utils.clicar(this.identificacaoCadastrarAccessibilityId, "ByAccessibilityId");
     }
 
     public void clicarBotaoEntrar(){
-        this.utils.esperarElementoVisivel(this.identificacaoEntrarXpath);
+        this.utils.esperarElementoEstarVisivel(this.identificacaoEntrarXpath);
         this.utils.clicar(this.identificacaoEntrarAccessibilityId, "ByAccessibilityId");
     }
 }

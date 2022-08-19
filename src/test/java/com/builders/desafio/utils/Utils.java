@@ -13,7 +13,7 @@ public class Utils {
         this.driver = driver;
     }
 
-    public void esperarElementoVisivel(By identificacao){
+    public void esperarElementoEstarVisivel(By identificacao){
         WebDriverWait wait = new WebDriverWait(this.driver, 60);
         wait.until(ExpectedConditions.visibilityOfElementLocated(identificacao));
     }
@@ -29,7 +29,7 @@ public class Utils {
                 elementoDois.click();
                 break;
             case "ByID":
-                MobileElement elementoTres = (MobileElement) driver.findElementByXPath(identificacao);
+                MobileElement elementoTres = (MobileElement) driver.findElementById(identificacao);
                 elementoTres.click();
                 break;
         }
