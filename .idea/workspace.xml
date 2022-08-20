@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55748ef7-246c-455d-af39-547f93cee66d" name="Changes" comment="INSERT - Inserindo novos cenarios.">
+    <list default="true" id="55748ef7-246c-455d-af39-547f93cee66d" name="Changes" comment="UPDATE - Atualizando README.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/config/AppiumDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/config/AppiumDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/CadastroPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/CadastroPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/PaginaInicialPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/PaginaInicialPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/TemperaturaPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/TemperaturaPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicialSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicialSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TelaInicial.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TelaInicial.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Temperatura.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Temperatura.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -72,7 +81,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a9cac910-770e-4a41-8ca2-e23ae3f1bb65" name="Changes" comment="" />
+      <changelist id="55748ef7-246c-455d-af39-547f93cee66d" name="Changes" comment="UPDATE - Atualizando README." />
       <created>1660712261082</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -85,8 +94,19 @@
       <option name="project" value="LOCAL" />
       <updated>1660889582553</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="INSERT - Inserindo novos cenarios.">
+      <created>1660897411221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660897411221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -101,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UPDATE - Atualizacao de arquitetura e primeiro cenario concluido." />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE - Atualizacao de arquitetura e primeiro cenario concluido." />
+    <MESSAGE value="INSERT - Inserindo novos cenarios." />
+    <option name="LAST_COMMIT_MESSAGE" value="INSERT - Inserindo novos cenarios." />
   </component>
 </project>

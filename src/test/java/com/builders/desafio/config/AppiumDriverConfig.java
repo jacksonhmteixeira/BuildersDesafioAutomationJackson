@@ -13,6 +13,7 @@ public class AppiumDriverConfig {
 
     public final AppiumDriver driver;
     private static  AppiumDriverConfig _instance;
+    public String URL_APK = "apk/challenge-qa.apk";
 
     public static AppiumDriverConfig Instance(){
         if(AppiumDriverConfig._instance == null){
@@ -21,7 +22,7 @@ public class AppiumDriverConfig {
         return AppiumDriverConfig._instance;
     }
     private AppiumDriverConfig() throws NoSuchElementException {
-        File apk = new File("/Users/jacksonhmt/Documents/REPOSITORIOS/BuildersDesafioAutomationJackson/apk/challenge-qa.apk");
+        File apk = new File(this.URL_APK);
 
         DesiredCapabilities configuracoes = new DesiredCapabilities();
         configuracoes.setCapability(MobileCapabilityType.APP, apk.getAbsolutePath());
