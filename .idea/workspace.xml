@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55748ef7-246c-455d-af39-547f93cee66d" name="Changes" comment="UPDATE - Atualizando README.">
+    <list default="true" id="55748ef7-246c-455d-af39-547f93cee66d" name="Changes" comment="UPDATE - Atualizando Arquitetura e Adicionando Novos Cenarios.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/config/AppiumDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/config/AppiumDriverConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/CadastroPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/CadastroPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/PaginaInicialPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/PaginaInicialPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/TemperaturaPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/pageObject/TemperaturaPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/CadastroSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/CadastroSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicialSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/PaginaInicialSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/TemperaturaSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/steps/TemperaturaSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/builders/desafio/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/builders/desafio/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/TelaInicial.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/TelaInicial.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/Temperatura.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Temperatura.feature" afterDir="false" />
     </list>
@@ -101,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660897411221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UPDATE - Atualizando Arquitetura e Adicionando Novos Cenarios.">
+      <created>1660972782237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660972782237</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -122,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="UPDATE - Atualizacao de arquitetura e primeiro cenario concluido." />
     <MESSAGE value="INSERT - Inserindo novos cenarios." />
-    <option name="LAST_COMMIT_MESSAGE" value="INSERT - Inserindo novos cenarios." />
+    <MESSAGE value="UPDATE - Atualizando Arquitetura e Adicionando Novos Cenarios." />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE - Atualizando Arquitetura e Adicionando Novos Cenarios." />
   </component>
 </project>

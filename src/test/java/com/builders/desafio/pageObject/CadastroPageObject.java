@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 
 public class CadastroPageObject {
 
-    private AppiumDriver driver;
-    private Utils utils;
+    private final AppiumDriver driver;
+    private final Utils utils;
     private final By identificacaoCelularXpath = By.xpath("//android.widget.EditText[@content-desc=\"insira o numero de celular\"]");
     private final By identificacaoBotaoAvancarXpath = By.xpath("//android.view.ViewGroup[@content-desc=\"Botao Avancar\"]");
     private final By identificacaoCampoNomeXpath = By.xpath("//android.widget.EditText[@content-desc=\"Insira o nome completo\"]");

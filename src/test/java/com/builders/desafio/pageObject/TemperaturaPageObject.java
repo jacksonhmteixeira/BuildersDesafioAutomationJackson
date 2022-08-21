@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 
 public class TemperaturaPageObject {
 
-    private AppiumDriver driver;
-    private Utils utils;
+    private final AppiumDriver driver;
+    private final Utils utils;
     private final By identificacaTelaTemperatura = By.xpath("//android.widget.TextView[@content-desc=\"Temperatura atual 28˚\"]");
 
     public TemperaturaPageObject(AppiumDriver driver){

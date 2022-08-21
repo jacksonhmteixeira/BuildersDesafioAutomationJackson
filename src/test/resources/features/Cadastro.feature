@@ -2,30 +2,51 @@
 
 Funcionalidade: [CADASTRO]
 
-  @Cadastro
-  Cenario: [CADASTRO] [CELULAR] [PREENCHENDO O NUMERO DO CELULAR]
-    Dado que estou na tela de cadastro na aba celular
-    Quando preencher o numero
-    E clicar em prosseguir
-    Entao o aplicativo deve seguir para a tela seguinte
+  @004 @Cadastro
+  Esquema do Cenario: : [CADASTRO] [CELULAR] [VALORES VALIDOS]
+    Dado que o usuario esta na tela inicial
+    Quando clicar em cadastrar para preencher a aba '<telefone>'
+    E clicar no icone prosseguir
+    Entao o aplicativo deve seguir para o preenchimento do nome
 
-  @Cadastro
-  Cenario: [CADASTRO] [NOME] [PREENCHENDO O NOME]
-    Dado que estou na tela de cadastro na aba nome
-    Quando preencher o nome
-    E clicar em prosseguir
+    Exemplos:
+      |telefone           |
+      |62987878787        |
+
+  @005 @Cadastro
+  Esquema do Cenario: : [CADASTRO] [NOME] [VALORES VALIDOS]
+    Dado que o usuario esta na tela inicial
+    E clicar em cadastrar para preencher a aba '<telefone>'
+    E clicar no icone prosseguir
+    Quando estiver na aba nome e preencher o campo com o '<nome>' e prosseguir
     Entao o eplicativo deve seguir para a tela de compartilhamento da localizacao
 
-  @Cadastro
-  Cenario: [CADASTRO] [COMPARTILHAR LOCALIZACAO] [CLICAR EM NAO]
-    Dado que estou na tela de cadastro na aba compartilhar localizacao
-    Quando eu clicar em COMPARTILHAR LOCALIZACAO
-    E logo apos clicar na opcao NAO
+    Exemplos:
+      |telefone    | nome                |
+      |62987878787 | Jackson Teixeira    |
+
+  @006 @Cadastro
+  Esquema do Cenario: : [CADASTRO] [COMPARTILHAR LOCALIZACAO] [CLICAR EM NAO]
+    Dado que o usuario esta na tela inicial
+    E clicar em cadastrar para preencher a aba '<telefone>' e a aba '<nome>'
+    E clicar no icone prosseguir
+    Quando estiver na aba Localizacao e acionar a opcao Compartilhar Localizacao
+    E clicar na opcao nao no modal
     Entao o aplicativo permanece na tela de compartilhar localizacao
 
-  @Cadastro
-  Cenario: [CADASTRO] [COMPARTILHAR LOCALIZACAO] [CLICAR EM SIM]
-    Dado que estou na tela de cadastro na aba compartilhar localizacao
-    Quando eu clicar em COMPARTILHAR LOCALIZACAO
-    E logo apos clicar na opcao SIM
-    Entao o aplicativo deve direcionar o usuario para a tela de temperatura
+  Exemplos:
+    |telefone      | nome                |
+    |62987878787   | Jackson Teixeira    |
+
+  @007 @Cadastro
+  Esquema do Cenario: : [CADASTRO] [COMPARTILHAR LOCALIZACAO] [CLICAR EM SIM]
+    Dado que o usuario esta na tela inicial
+    E clicar em cadastrar para preencher a aba '<telefone>' e a aba '<nome>'
+    E clicar no icone prosseguir
+    Quando estiver na aba Localizacao e acionar a opcao Compartilhar Localizacao
+    E clicar na opcao sim no modal
+    Entao o aplicativo direciona para a tela de temperatura apos o preenchimento
+
+    Exemplos:
+      | telefone    | nome                |
+      | 62987878787 | Jackson Teixeira    |

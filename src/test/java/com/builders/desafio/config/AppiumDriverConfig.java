@@ -5,10 +5,10 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.MobilePlatform;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.io.File;
+
 public class AppiumDriverConfig {
 
     public final AppiumDriver driver;
@@ -21,6 +21,7 @@ public class AppiumDriverConfig {
         }
         return AppiumDriverConfig._instance;
     }
+
     private AppiumDriverConfig() throws NoSuchElementException {
         File apk = new File(this.URL_APK);
 
@@ -29,7 +30,7 @@ public class AppiumDriverConfig {
         configuracoes.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
         configuracoes.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 
-        URL urlConexao = null;
+        URL urlConexao;
         try {
             urlConexao = new URL("http://127.0.0.1:4723/wd/hub");
         } catch (MalformedURLException e) {

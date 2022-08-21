@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 
 public class PaginaInicialPageObject {
 
-    private AppiumDriver driver;
-    private Utils utils;
+    private final AppiumDriver driver;
+    private final Utils utils;
     private final By identificacaoCadastrarXpath = By.xpath("//android.view.ViewGroup[@content-desc=\"Cadastrar\"]");
     private final By identificacaoEntrarXpath = By.xpath("//android.view.ViewGroup[@content-desc=\"Entrar\"]");
 
