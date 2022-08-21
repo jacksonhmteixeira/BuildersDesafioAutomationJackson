@@ -9,9 +9,9 @@ Esse repositório foi criado para armazenar o desafio da **Builders**.
 
 Foram realizados os testes solicitados, na lista abaixo se encontra os cenários, defeitos e evidências de testes:
 
-- Cenários; ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/CENARIOS) )
-- Defeitos Encontrados; ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/DEFEITOS) )
-- Evidências de testes com observações. ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/EVIDENCIAS) )
+- Cenários ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/CENARIOS) );
+- Defeitos Encontrados ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/DEFEITOS) );
+- Evidências de testes com observações ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/EVIDENCIAS) ).
 
 # Automação
 

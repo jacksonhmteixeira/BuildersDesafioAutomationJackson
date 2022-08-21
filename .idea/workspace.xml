@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55748ef7-246c-455d-af39-547f93cee66d" name="Changes" comment="INSERT - Inserindo as imagens sobre o projeto.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="55748ef7-246c-455d-af39-547f93cee66d" name="Changes" comment="Atualizando o README.">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661109996061</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Atualizando o README.">
+      <created>1661114606879</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661114606879</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -139,6 +145,7 @@
     <MESSAGE value="UPDATE - Atualizando Arquitetura e Adicionando Novos Cenarios." />
     <MESSAGE value="UPDATE - Adicionando todas as alteracoes feitas nos cenarios e arquitetura do projeto." />
     <MESSAGE value="INSERT - Inserindo as imagens sobre o projeto." />
-    <option name="LAST_COMMIT_MESSAGE" value="INSERT - Inserindo as imagens sobre o projeto." />
+    <MESSAGE value="Atualizando o README." />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizando o README." />
   </component>
 </project>
