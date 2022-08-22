@@ -5,13 +5,20 @@
 Esse repositório foi criado para armazenar o desafio da **Builders**.
 </div>
 
-#  Documentação Solicitada
+#  Documentações de Testes
 
 Foram realizados os testes solicitados, na lista abaixo se encontra os cenários, defeitos e evidências de testes:
+- Plano de Testes ( [Clique Aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQADocumentacaoJackson/tree/main/01%20-%20Plano%20de%20Testes) );
+- Cenários de Testes ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQADocumentacaoJackson/tree/main/02%20-%20Cenarios) );
+- Relatórios de Defeitos Encontrados ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQADocumentacaoJackson/tree/main/04%20-%20Defeitos) );
+- Evidências de Testes com Observações ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQADocumentacaoJackson/tree/main/03%20-%20Evidencias) ).
 
-- Cenários ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/CENARIOS) );
-- Defeitos Encontrados ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/DEFEITOS) );
-- Evidências de testes com observações ( [Clique aqui](https://github.com/jacksonhmteixeira/BuildersDesafioQAJackson/tree/main/EVIDENCIAS) ).
+Essas documentações se encontra em outro repositório no GitHub, caso queira clonar, executar o comando:
+
+```bash
+    # CLONAR REPOSITÓRIO DE DOCUMENTAÇÃO
+    git clone https://github.com/jacksonhmteixeira/BuildersDesafioQADocumentacaoJackson.git
+```
 
 # Automação
 
@@ -71,7 +78,7 @@ Na automação, foi feito um projeto completo utilizando as tecnologias abaixo:
 ### 4° - Clonar o projeto do *[GitHub](https://github.com/)*:
 
 ```bash
-    # CLONAR REPOSITÓRIO
+    # CLONAR REPOSITÓRIO DA AUTOMAÇÃO
     git clone https://github.com/jacksonhmteixeira/BuildersDesafioAutomationJackson.git
 ```
 ### 5° - Abrir o projeto no *[Intellij](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)*:
