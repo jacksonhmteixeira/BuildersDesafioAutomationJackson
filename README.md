@@ -1,6 +1,6 @@
 <div align="center">
 
-# Builders - Desafio QA
+# Builders - Desafio QA - Automação
 
 Esse repositório foi criado para armazenar o desafio da **Builders**.
 </div>
