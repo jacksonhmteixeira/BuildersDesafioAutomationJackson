@@ -24,7 +24,7 @@ Essas documentações se encontra em outro repositório no GitHub, caso queira c
 
 Na automação, foi feito um projeto completo utilizando as tecnologias abaixo:
 
-- **Java** - Linguagem de programção utilizada;
+- **Java** - Linguagem de programação utilizada;
 - **Maven** - Para gerenciar as dependências do projeto.
 - **Cucumber** - Para utilizar o BDD na automação;
 - **Appium** - Framework de Testes Automatizados para mobile;
