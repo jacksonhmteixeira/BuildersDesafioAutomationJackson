@@ -36,7 +36,7 @@ Na automação, foi feito um projeto completo utilizando as tecnologias abaixo:
 
 <img src="files/arquitetura do projeto.png" style="width:600px">
 
-**1° Imagem:** Aquitetura dos Testes Automatizados;
+**1° Imagem:** Aquitetura dos Testes Automatizados.
 
 </div>
 
