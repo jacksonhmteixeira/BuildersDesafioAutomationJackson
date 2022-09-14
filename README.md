@@ -7,10 +7,9 @@
 Foi feito um projeto completo utilizando as tecnologias abaixo:
 
 - **Java** - Linguagem de programação utilizada;
-- **Maven** - Para gerenciar as dependências do projeto.
+- **Maven** - Para gerenciar as dependências do projeto;
 - **Cucumber** - Para utilizar o BDD na automação;
-- **Appium** - Framework de Testes Automatizados para mobile;
-- **JUnit** - Utilizado no suporte de Testes Automatizados na Linguagem de Programação Java.
+- **Appium** - Framework de Testes Automatizados para mobile.
 
 ## Arquitetura do Projeto
 
