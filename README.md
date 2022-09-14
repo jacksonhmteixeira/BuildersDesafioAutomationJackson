@@ -1,6 +1,8 @@
 <div align="center">
 
 # Desafio QA - Automação
+    
+</div>
 
 Foi feito um projeto completo utilizando as tecnologias abaixo:
 
