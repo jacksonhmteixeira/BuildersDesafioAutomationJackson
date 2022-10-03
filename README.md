@@ -1,6 +1,6 @@
 <div align="center">
 
-# Desafio QA - Automação
+# AUTOMAÇÃO </br> Java - Cucumber - Appium
     
 </div>
 
